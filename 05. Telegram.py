@@ -16,7 +16,7 @@ class UserState(StatesGroup):
     weight = State()  # Состояние для ввода веса
 
 # Инициализация бота и диспетчера
-bot = Bot(token='7542914141:AAEGE-IRdCWrwjhrFbppasBq6gmTKcU707w')  # Замените YOUR_BOT_TOKEN на ваш токен
+bot = Bot(token='Ваш токен')
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
 
